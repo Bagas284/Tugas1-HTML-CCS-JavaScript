@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Todo List</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="judul">Todo List</h1>
+
+      <div class="text-button">
+        <input type="text" placeholder="Enter a task" class="textField" id="tf-input"> <!-- id tf-input untuk mengambil inputan-->
+
+        <button class="button-add" onclick="addTask()" id="bAdd">Add Task</button>
+      </div>
+
+      <div class="list-items">
+        <h3 class="judul">Daftar Tugas</h3>
+        <ol id="task-container"></ol>
+      </div>
+    </div>
+  </body>
+</html>

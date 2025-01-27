@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Untuk memusatkan secara horizontal */
+    align-items: center; /* Untuk memusatkan secara vertikal */
+}
+
+.container {
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.judul {
+    text-align: center;
+}
+
+.text-button {
+    display: flex;
+    gap: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.textField {
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    border: 1px rgb(156, 156, 156) solid;
+    border-radius: 4px;
+}
+
+.button-add {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+
+.list-items {
+    border: 1px rgb(156, 156, 156) solid;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.items {
+    padding-bottom: 20px;
+    padding-right: 25px;
+    word-wrap: break-word; /* Memecah kata panjang ke baris berikutnya */
+}
+
+.button-edit, .button-delete {
+    width: 70px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.button-edit {
+    background-color: rgb(196, 249, 4);
+    margin-right: 5px;
+}
+
+.button-delete {
+    background-color: red;
+    color: white;
+}
